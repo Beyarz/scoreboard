@@ -1,0 +1,11 @@
+.env
+README.md
+yarn.lock
+snowpack.config.js
+.vercel
+.eslintrc.json
+.gitignore
+.nowignore
+now.json
+node_modules
+public

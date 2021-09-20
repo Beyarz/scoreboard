@@ -1,0 +1,24 @@
+@import './partials/spectrum.scss';
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  margin: 8rem 0 8rem 0;
+}
+
+.app-list-table {
+  margin-top: 3rem;
+}
+
+.align-center {
+  margin: 0 auto
+}
+
+td.spectrum-Table-cell {
+  &:focus {
+    outline: none
+  }
+}
