@@ -22,3 +22,11 @@ td.spectrum-Table-cell {
     outline: none
   }
 }
+
+.spectrum-Body--sizeXXL {
+  font-size: calc(1em + 1vmin)
+}
+
+.spectrum-Table-body {
+  vertical-align: middle;
+}
