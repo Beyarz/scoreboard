@@ -8,7 +8,7 @@ Set the document type to repeatable
 
 ## Structure
 
-````json
+```json
 {
   "Main" : {
     "score" : {
