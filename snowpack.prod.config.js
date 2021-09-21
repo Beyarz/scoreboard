@@ -31,20 +31,7 @@ module.exports = {
     target: 'es2017'
   },
 
-  knownEntrypoints: [
-    '@spectrum-css/vars/dist',
-    '@spectrum-css/page/dist',
-    '@spectrum-css/typography/dist',
-    '@spectrum-css/icon/dist',
-    '@spectrum-css/site/dist',
-    '@spectrum-css/actionbutton/dist',
-    '@spectrum-css/actiongroup/dist/',
-    '@spectrum-css/progressbar/dist/',
-    '@spectrum-css/steplist/dist/',
-    '@spectrum-css/table/dist/',
-    '@prismicio/client/types/'
-  ],
-
+  knownEntrypoints: [],
   env: {},
   packageOptions: {},
   devOptions: {},
