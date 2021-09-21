@@ -36,6 +36,7 @@ function App () {
   }, [])
 
   let key: number = 0
+  let order: number = 0
   let previousDistance: number = 0
   const top3: Entry[] = doc as unknown as Entry[]
 
@@ -55,13 +56,15 @@ function App () {
         {
           typeof doc === 'object'
             ? sortedProps(doc).map((prop: Entry): ReactElement<Element> => {
+              key++
+                                   
               if (previousDistance != prop.distance) {
-                key++
+                order++
                 previousDistance = prop.distance
               }
 
               return (
-                <Table key={key} order={key} name={prop.name} distance={prop.distance} metric={prop.metric} />
+                <Table key={key} order={order} name={prop.name} distance={prop.distance} metric={prop.metric} />
               )
             })
             : <Loading />
